@@ -1,1 +1,222 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thrive Collective -- Resources</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #1a1a1a;
+      color: #ffffff;
+    }
+
+    header {
+      background: #29235c;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 4px solid #feeb00;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #feeb00;
+    }
+
+    header p {
+      color: #ffffff;
+      margin-top: 8px;
+      font-size: 1rem;
+    }
+
+    .tagline {
+      background: #0773bb;
+      text-align: center;
+      padding: 12px;
+      font-size: 0.9rem;
+      letter-spacing: 2px;
+      font-weight: 600;
+      color: #feeb00;
+      text-transform: uppercase;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .section-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #feeb00;
+      margin-bottom: 24px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #0773bb;
+    }
+
+    /* VIDEO SECTION */
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      margin-bottom: 60px;
+    }
+
+    .video-card {
+      background: #29235c;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #0773bb;
+    }
+
+    .video-card iframe {
+      width: 100%;
+      aspect-ratio: 16/9;
+      border: none;
+      display: block;
+    }
+
+    .video-card .video-info {
+      padding: 16px;
+    }
+
+    .video-card h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #feeb00;
+      margin-bottom: 6px;
+    }
+
+    .video-card p {
+      font-size: 0.85rem;
+      color: #cccccc;
+    }
+
+    /* DOWNLOADS SECTION */
+    .downloads-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-bottom: 60px;
+    }
+
+    .download-card {
+      background: #29235c;
+      border: 1px solid #0773bb;
+      border-radius: 8px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .download-card h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    .download-card p {
+      font-size: 0.85rem;
+      color: #cccccc;
+      flex-grow: 1;
+    }
+
+    .btn-download {
+      display: inline-block;
+      background: #feeb00;
+      color: #29235c;
+      padding: 10px 18px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 0.85rem;
+      text-decoration: none;
+      text-align: center;
+      transition: background 0.2s;
+    }
+
+    .btn-download:hover { background: #e0d100; }
+
+    footer {
+      background: #29235c;
+      text-align: center;
+      padding: 24px;
+      font-size: 0.8rem;
+      color: #aaaaaa;
+      border-top: 4px solid #feeb00;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Thrive Collective Resources</h1>
+    <p>Everything you need to build, grow and thrive.</p>
+  </header>
+
+  <div class="tagline">Daily Discipline Builds Belief</div>
+
+  <main>
+
+    <!-- ======= VIDEO SECTION ======= -->
+    <h2 class="section-title">Training Videos</h2>
+    <div class="video-grid">
+
+      <!-- VIDEO 1 -- Replace the YouTube ID below -->
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" allowfullscreen></iframe>
+        <div class="video-info">
+          <h3>Your Video Title Here</h3>
+          <p>A short description of what this video covers.</p>
+        </div>
+      </div>
+
+      <!-- VIDEO 2 -->
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" allowfullscreen></iframe>
+        <div class="video-info">
+          <h3>Your Video Title Here</h3>
+          <p>A short description of what this video covers.</p>
+        </div>
+      </div>
+
+      <!-- COPY THIS WHOLE BLOCK TO ADD MORE VIDEOS -->
+
+    </div>
+
+    <!-- ======= DOWNLOADS SECTION ======= -->
+    <h2 class="section-title">Downloads and Resources</h2>
+    <div class="downloads-grid">
+
+      <!-- DOWNLOAD 1 -- Replace the href link with your file URL -->
+      <div class="download-card">
+        <h3>Resource Title Here</h3>
+        <p>Brief description of what this document contains and who it is for.</p>
+        <a href="YOUR_FILE_LINK_HERE" class="btn-download" download>Download PDF</a>
+      </div>
+
+      <!-- DOWNLOAD 2 -->
+      <div class="download-card">
+        <h3>Resource Title Here</h3>
+        <p>Brief description of what this document contains and who it is for.</p>
+        <a href="YOUR_FILE_LINK_HERE" class="btn-download" download>Download PDF</a>
+      </div>
+
+      <!-- COPY THIS WHOLE BLOCK TO ADD MORE DOWNLOADS -->
+
+    </div>
+
+  </main>
+
+  <footer>
+    &copy; 2026 Thrive Collective. All rights reserved.
+  </footer>
+
+</body>
+</html>
